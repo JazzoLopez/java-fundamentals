@@ -11,6 +11,7 @@ public class TypeVar {
         var isMarried = false;//INFIERE LOS DATOS DE TIPO BOOLEAN
         System.out.println("isMarried = " + isMarried);
         isMarried = true; // CORRECTO
+        System.out.println("isMarried = " + isMarried);
         //var data; //NO SE PUEDE PRIMERO DEFINIR Y LUEGO ASIGNAR
     }
 }
