@@ -1,3 +1,5 @@
+package variables;
+
 public class ProductDetail {
     public static void main(String[] args) {
         String productName = "Paps";

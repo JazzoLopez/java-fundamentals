@@ -1,3 +1,5 @@
+package variables;
+
 public class Detalle {
     public static void main(String[] args) {
         String title = "El señor de los anillos";
