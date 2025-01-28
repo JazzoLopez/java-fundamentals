@@ -1,5 +1,7 @@
 package cadenas;
 
+import java.util.Locale;
+
 public class MoreConcats {
     public static void main(String[] args) {
         var cadena1 = "Hola";
@@ -24,7 +26,7 @@ public class MoreConcats {
         System.out.println("resultado2 = " + resultado2);
 
         //Uso de join
-        result = String.join(" ",cadena1,cadena2);
+        result = String.join(" ",cadena1,cadena2).toLowerCase(Locale.ROOT);
         System.out.println("result with join = " + result);
 
     }
